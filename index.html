@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>MARKU - Dealership</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/menu.png" class="menu-img">
+            <h2 class="logo">MARKU</h2>
+            <ul>
+                <li><a class="nav-link nav-link-ltr" href="">Latest</a></li>
+                <li><a class="nav-link nav-link-ltr" href="">Modern</a></li>
+                <li><a class="nav-link nav-link-ltr" href="">Categories</a></li>
+                <li><a class="nav-link nav-link-ltr" href="">now</a></li>
+            </ul>
+        </nav>
+
+        <div class="car-container">
+            <img src="images/car.png" class="car">
+            <img src="images/led.png" class="led" id="led">
+            <img src="images/headlights.png" class="headlights" id="headlights">
+        </div>
+
+        <div class="text-container">
+            <h1>Once in a lifetime</h1>
+            <p>This is the first vehicle from our company. We're making a huge collection of modern vehicles in
+            all categories from sedan to sports car.</p>
+            <button class="startBtn" type="button" onclick="toggleBtn()" id="sBtn"><span><p>Start <br> Engine <br> Stop<p></span></button>
+        </div>
+
+    </div>
+    <script>
+        var sBtn = document.getElementById("sBtn");
+        var led = document.getElementById("led");
+        var headlights = document.getElementById("headlights");
+
+        function toggleBtn() {
+            sBtn.classList.toggle("active");
+            led.classList.toggle("on");
+            headlights.classList.toggle("on");
+        }
+    </script>
+</body>
+</html>
