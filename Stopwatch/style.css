@@ -1,0 +1,58 @@
+html {
+    background: linear-gradient(to right, #5433FF, #20BDFF);
+}
+body h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+p {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p span {
+    font-size: 50px;
+}
+button {
+    text-align: center;
+    right: 0;
+    left: 28.5%;
+    position: relative;
+    border: 2px solid;
+    background-color: transparent;
+    color: white;
+    padding: 18px 15px;
+    font-size: 20px;
+    width: 250px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-transform: uppercase;
+    border-radius: 20px;
+    letter-spacing: 0.2em;
+}
+#button-start {
+    border-color: rgb(86, 255, 71);
+    box-shadow: 0px 0px 5px 1px rgb(86, 255, 71);
+}
+#button-start:hover {
+    background-color: rgb(86, 255, 71);
+}
+#button-stop {
+    border-color: red;
+    box-shadow: 0px 0px 5px 1px red;
+}
+#button-stop:hover {
+    background-color: red;
+}
+#button-reset {
+    border-color: rgb(86, 255, 71);
+    box-shadow: 0px 0px 5px 1px rgb(86, 255, 71);
+}
+#button-reset:hover {
+    background-color: rgb(86, 255, 71);
+}
